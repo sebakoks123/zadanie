@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+
+<svg width="5000px" height="5000px">
+    <circle cx="150" cy="150" r="400" stroke-width="80" stroke="red" fill="blue"/>
+    <g id="star" stroke="gray">
+        <polygon points="150,20 170,110 250,110 180,160 200,250 150,200 100,250 120,160 50,110 130,110" fill="#FF7799"/>
+    </g>
+    <use xlink:href="#triangle" transform="rotate(10,150,150)" />
+    <use xlink:href="#star" transform="rotate(90,150,150)" />
+    <use xlink:href="#star" transform="rotate(180,150,150)" />
+    <use xlink:href="#star" transform="rotate(270,150,150)" />
+</svg>
+
+</body>
+</html>
